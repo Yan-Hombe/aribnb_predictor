@@ -10,3 +10,5 @@ Once downloaded, the data files, which are initially compressed, are extracted a
 The data then undergoes a cleaning process, where any inconsistencies or missing values are addressed, and the data is structured in a form suitable for analysis. This clean, processed data serves as the foundation for the predictive modeling aspect of the project. The program is capable of predicting Airbnb listing prices based on the processed data. 
 
 An additional feature of the program is its integration with the Google Maps API to fetch geolocation data (latitude and longitude) for each Airbnb listing. This allows the program to also determine the neighborhood in which each Airbnb listing is located. By combining this geolocation data with the listing data from Inside Airbnb, the program can provide more granular and location-specific insights into Airbnb pricing.
+
+In order to explore the project you can run through the jupyter notebook demo_scrape and predict airbnb.ipynb. Make sure you have stored the python function file scrape_and_predict_functions.py in the same working directory.
